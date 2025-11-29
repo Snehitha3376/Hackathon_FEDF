@@ -1,0 +1,21 @@
+.site-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:16px;
+  background:#fff;
+  border-bottom:1px solid #eee;
+  position:sticky;
+  top:0;
+  z-index:40;
+}
+.site-brand .brand-link{font-weight:700;font-size:18px;color:var(--accent);text-decoration:none}
+.site-brand .brand-sub{font-size:12px;color:var(--muted)}
+.main-nav{display:flex;gap:14px}
+.main-nav a{color:var(--muted);text-decoration:none;font-weight:600}
+.main-nav a:hover{text-decoration:underline}
+.auth-area{display:flex;gap:10px;align-items:center}
+.user-name{font-weight:600;color:var(--muted)}
+.btn-logout{background:#ef4444;color:white;border:none;padding:8px 10px;border-radius:8px;cursor:pointer}
+.btn-login{background:var(--accent);color:white;padding:8px 10px;border-radius:8px}
